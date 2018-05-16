@@ -47,15 +47,28 @@
 
               
         
-    <div class="container">  
-      <div class='header'>     
+    <div class="container"> 
+      <div class="row">
+        <div class="col-md-8">
+         <div class='header'>     
          <h1>Cloudiness</h1></div>
          
 
          <img src="images/cloudymap.png" alt="plot of windspeed vs. latitude" class="mx-auto">
-        <p>On 12/10/2017, Cloudiness appears to be distibuted fairly evenly
-                around the globe. There was only one location with 100% cloudiness,
-                (Liwale, Tanzania) while there were 130 location with 0% cloudiness.</p>
+         <p>There is no strong relationship between latitude and cloudiness, however, it
+           is interesting to see that a strong band of cities sits at 0, 80, and 100%
+           cloudiness.
+         </p>
+        </div>
+        <div class="col-md-4">
+            <h1>Visualizations</h1>
+            <a href ="temperature.html"><img src ="images/temperaturemap.png" alt = 'Lat vs. temperature' class="photo"></a>
+            <a href ="humidity.html"><img src ="images/humiditymap.png" alt = 'Lat vs. humidity' class="photo"></a>
+            <a href ="cloudiness.html"><img src ="images/cloudymap.png" alt = 'Lat vs. cloudiness' class="photo"></a>
+            <a href ="windspeed.html"><img src ="images/windmap.png" alt = 'Lat vs. windspeed' class="photo"></a>
+        </div>
+      </div>  
+
           
       
     </div>
